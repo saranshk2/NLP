@@ -1,0 +1,65 @@
+Training
+
+Transform the original Wikipedia texts to a text containing line by line 20 words only.  [trying to replicate the wiki texts as short texts] [BTM_wiki_1.py]
+Taking all possible combinations/permutations of alpha and beta. Decide formerly the number of topics. [tpc_14.7.15.py] [learning the topic distribution P(z) and P(w|z) ---- Probability of each of the topics (number of topics decided formerly) in the wiki text  and Probability of the word given the topic]
+
+[we will get P(z|d) --- topic proportions of each of the documents ]
+
+After running runExample.sh, we will get the top words and their probabilities (10 most probable words) corresponding to each of the topics prior decided.
+
+Taking these words into consideration, we calculate the average topic coherence score .... the average is calculated over each of the topic-ids in the total no. of topics
+
+this is done for all permutations/combinations of alpha and beta.... dirichlet distributions
+
+the value of alpha, beta that give maximum average topic coherence score are extracted out.
+
+;
+;
+;
+;
+;
+
+Fine tuning of alpha and beta. ...... repeat the above process by narrowing down the range of alpha and beta....calculate the average topic coherence score and obtain the values of alpha, beta corresponding to max. value of average topic coherence score. 
+
+
+repeat the above process for number of topics = 5, 10, 15, 20. [look for the folders BTM_topic_coh]
+
+Check out for which 'Number of topics' the max. average topic coherence score is obtained.
+
+Choose that value of N.
+
+and that value of alpha and beta.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Testing:
+
+With the number of topics, and value of alpha and beta....we now try to get 
+
+1) P(z|d) i.e. the distribution of each of the topics in each of the documents. ... [here two documents are involved...student answer & model answer]
+
+[runExample.sh in /BTM_10p/ ]
+2) Now using Hellinger distance, then subtracting that distance computed from 1, we obtain the Topical similarity between a pair of answers.  
+   [Hellinger_dist_old.py]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
