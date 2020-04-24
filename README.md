@@ -8,10 +8,10 @@ The objective is to develop a framework for formulating fairness constraints on 
 
 # Requirements #
 
-1. numpy
+1. pulp
 2. pandas
 3. matplotlib
-4. pulp
+4. numpy
 5. BvN [Repo](https://github.com/jfinkels/birkhoff)
 
 
