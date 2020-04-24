@@ -20,8 +20,8 @@ The objective is to develop a framework for formulating fairness constraints on 
 All the results are enclosed in jupyter notebook itself.
 1. Job Seeker - _**optimisation_gender.ipynb**_ 
 2. YOW NEWS Recommendation -  _**optimisation_real.ipynb**_ 
-3. Path for all the ranking matrix without BvN Decomposition - _**\ranking\**_
-4. Path for all the ranking matrix with BvN Decomposition - **_\bvn\_** \
+3. Path for all the ranking matrix without BvN Decomposition - \ranking\
+4. Path for all the ranking matrix with BvN Decomposition - \bvn\
 Results include average DCG-Discounted Cumulative Gain and rankings with BvN Decompositon.
 
 
