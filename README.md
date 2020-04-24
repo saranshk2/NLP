@@ -2,7 +2,7 @@
 
 # Summary #
 
-The objective is to develop a framework for formulating fairness constraints on rankings, and then computing the utility-maximizing ranking subject to these fairness constraints. The fairness constraints are : **Dempgraphic Parity, Disparate Treartment and Disparate Impact.**. This is done by linear optimization using *pulp* on two dataets - synthetic **Job-seeker dataset** and real **YOW news recommendation dataset**
+The objective is to develop a framework for formulating fairness constraints on rankings, and then computing the utility-maximizing ranking subject to these fairness constraints. The fairness constraints are : **Demographic Parity, Disparate Treartment and Disparate Impact.**. This is done by linear optimization using *pulp* on two dataets - synthetic **Job-seeker dataset** and real **YOW news recommendation dataset**
 
 
 
@@ -17,11 +17,11 @@ The objective is to develop a framework for formulating fairness constraints on 
 
 # Results #
 
-All the results are enclosed in juyter notebook itself.
-1. optimisation_gender.pynb - Job Seeker 
-2. optimisation_real.ipynb - YOW NEWS Recommendation
-3. Path for all the ranking matrix without BvN Decomposition - \ranking\
-4. Path for all the ranking matrix with BvN Decomposition - \bvn\ \
+All the results are enclosed in jupyter notebook itself.
+1. Job Seeker - _**optimisation_gender.ipynb**_ 
+2. YOW NEWS Recommendation -  _**optimisation_real.ipynb**_ 
+3. Path for all the ranking matrix without BvN Decomposition - _**\ranking\**_
+4. Path for all the ranking matrix with BvN Decomposition - **_\bvn\_** \
 Results include average DCG-Discounted Cumulative Gain and rankings with BvN Decompositon.
 
 
